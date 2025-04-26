@@ -76,11 +76,11 @@ Response: List of all incidents.
 
 ---
 
-### Get Incidents by Severity
+### Get Incidents by ID
 
-**GET** `/incidents?severity=High`
+**GET** `/incidents/:id`
 
-Response: List of incidents filtered by severity.
+Response: Returns the specific incident matching the given ID
 
 ## Folder Structure
 
