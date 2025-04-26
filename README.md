@@ -84,6 +84,8 @@ Response: Returns the specific incident matching the given ID
 
 ---
 
+### Delete Incidents by ID
+
 **DELETE** `/incidents/:id`
 
 Confirmation that the incident has been deleted
